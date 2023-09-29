@@ -1,3 +1,4 @@
+import 'package:first_project/fonts_demo_view.dart';
 import 'package:first_project/gridview.dart';
 import 'package:first_project/images_view.dart';
 import 'package:first_project/media_query_view.dart';
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       "/": (context) => NavigationExample(),
       "/imagescreen": (context) => ImagesView(),
       "/firstscreen": (context) => CounterView(),
-      "/mediaqueryscreen": (context) => MediaQueryExample()
+      "/mediaqueryscreen": (context) => MediaQueryExample(),
+      "/fontscreen": (context) => FontsExample()
     });
     // home: NavigationExample());
   }

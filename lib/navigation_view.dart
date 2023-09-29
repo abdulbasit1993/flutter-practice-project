@@ -27,6 +27,11 @@ class NavigationExample extends StatelessWidget {
                       {Navigator.pushNamed(context, "/mediaqueryscreen")},
                   child: Text('Go to MediaQuery Screen'),
                   style: ElevatedButton.styleFrom(minimumSize: Size(200, 40))),
+              ElevatedButton(
+                  onPressed: () =>
+                      {Navigator.pushNamed(context, "/fontscreen")},
+                  child: Text('Go to Fonts Screen'),
+                  style: ElevatedButton.styleFrom(minimumSize: Size(200, 40))),
             ],
           ),
         ));
